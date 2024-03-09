@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ComentarioController;
 use App\Http\Controllers\VideojuegoController;
 use Illuminate\Support\Facades\Route;
 
@@ -20,5 +21,8 @@ Route::get('/', function () {
 
 Route::resource('videojuegos', VideojuegoController::class);
 Auth::routes();
+
+Route::resource('comentarios', ComentarioController::class);
+
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

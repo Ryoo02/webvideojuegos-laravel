@@ -8,6 +8,7 @@
     <section class="content container-fluid">
         <div class="row">
             <div class="col-md-12">
+            <a class="navbar-brand" href="http://127.0.0.1:8000/videojuegos">Volver a la Tabla</a>
                 <div class="card">
                     <div class="card-header">
                         <div class="float-left">
